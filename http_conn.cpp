@@ -16,7 +16,7 @@ const char*error_500_form="there was an unusual problem serving the requested fi
 
 
 
-const char * root_dic="/home/keke/webservermy/resources";
+const char * root_dic="/home/keke/webserver/resources";
 int http_conn::m_epollfd=0; //所有sock上的事件都注册到一个epoll中
 int http_conn::m_user_count=0; //http连接的总数量
 void setnoblocking(int fd)
